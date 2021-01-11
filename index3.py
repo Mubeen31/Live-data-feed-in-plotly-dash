@@ -82,7 +82,7 @@ app.layout = html.Div([
 ], id= "mainContainer", style={"display": "flex", "flex-direction": "column"})
 
 @app.callback(
-    Output('live_text', 'children'),
+    Output('live_text1', 'children'),
     [Input('radio_items', 'value')],
     [Input('update_chart', 'n_intervals')]
     )
